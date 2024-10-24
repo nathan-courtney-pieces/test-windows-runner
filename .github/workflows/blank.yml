@@ -44,10 +44,10 @@ jobs:
           echo test, and deploy your project.
 
       - name: Test Clone Public Repo
-        run: git clone git@github.com:octocat/Hello-World.git
+        run: git clone --depth 1 git@github.com:octocat/Hello-World.git
 
       - name: Test Clone Public Repo
-        run: git clone git@github.com:pieces-app/cli-agent.git
+        run: git clone --depth 1 git@github.com:pieces-app/cli-agent.git
 
       - name: Test Clone Internal Repo
-        run: git clone git@github.com:nathan-courtney-pieces/flutter_test_windows_runner.git
+        run: git clone --depth 1 git@github.com:nathan-courtney-pieces/flutter_test_windows_runner.git
