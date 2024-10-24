@@ -45,9 +45,12 @@ jobs:
 
       - name: Test Clone Public Repo
         run: git clone --depth 1 git@github.com:octocat/Hello-World.git
+        shell: bash 
 
       - name: Test Clone Public Repo
         run: git clone --depth 1 git@github.com:pieces-app/cli-agent.git
+        shell: bash
 
       - name: Test Clone Internal Repo
         run: git clone --depth 1 git@github.com:nathan-courtney-pieces/flutter_test_windows_runner.git
+        shell: bash
