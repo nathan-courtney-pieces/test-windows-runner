@@ -50,4 +50,4 @@ jobs:
         run: git clone git@github.com:pieces-app/cli-agent.git
 
       - name: Test Clone Internal Repo
-        run: git@github.com:nathan-courtney-pieces/flutter_test_windows_runner.git
+        run: git clone git@github.com:nathan-courtney-pieces/flutter_test_windows_runner.git
